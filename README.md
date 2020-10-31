@@ -10,7 +10,7 @@ Diferentemente dos bancos relacionais, a estrutura de dados não precisa ser def
 ## MongoDb
 É uma nova ideia de banco de dados trazendo conceitos de Banco de Dados Orientado à Documentos, que tem como característica conter todas as informações importantes em um único documento, ser livre de esquemas, possuir identificadores únicos universais, possibilitar a consulta de documentos através de métodos avançados de agrupamentos e filtragem.
 
-## Comendos
+## Comandos
 
 ### * use 
 Cria um banco de dados novo.
@@ -40,4 +40,4 @@ Retorna apenas um único registro(o primeiro registro).
 Inclue um registro dentro de uma collection.
 
 ### * db.<NomeDaCollection>.insertMany([{//objetos a serem inseridos//}])
-Inclue vários registros de uma única
+Inclue vários registros de uma única vez.
